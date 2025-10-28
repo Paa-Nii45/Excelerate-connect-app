@@ -1,0 +1,381 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "email": "sarah.johnson@email.com",
+      "displayName": "Sarah Johnson",
+      "photoURL": null,
+      "createdAt": "2025-09-15T10:00:00Z",
+      "stats": {
+        "programsEnrolled": 5,
+        "badgesEarned": 8,
+        "microScholarshipPoints": 250
+      },
+      "interests": [
+        "Marketing",
+        "Business",
+        "Communication"
+      ],
+      "skills": {
+        "Marketing": 85,
+        "Communication": 70,
+        "Data Analysis": 50
+      }
+    },
+    {
+      "id": "user_002",
+      "email": "demo@excelerate.com",
+      "displayName": "Demo User",
+      "photoURL": null,
+      "createdAt": "2025-10-01T08:30:00Z",
+      "stats": {
+        "programsEnrolled": 2,
+        "badgesEarned": 3,
+        "microScholarshipPoints": 75
+      },
+      "interests": [
+        "Technology",
+        "Data Science"
+      ],
+      "skills": {
+        "Python": 60,
+        "Data Analysis": 45,
+        "Problem Solving": 55
+      }
+    }
+  ],
+  "programs": [
+    {
+      "id": "prog_001",
+      "title": "Social Media Marketing Internship",
+      "category": "Internship",
+      "categoryColor": {
+        "background": "#e3f2fd",
+        "text": "#1976d2"
+      },
+      "description": "Work with a global team to create retention programs for a leading accounting firm. Develop marketing strategies and learn from industry experts.",
+      "duration": "4 weeks",
+      "durationHours": "10-12 hours/week",
+      "startDate": "2025-10-15T00:00:00Z",
+      "difficulty": "Beginner",
+      "skills": [
+        "Marketing Strategy",
+        "Social Media",
+        "Content Creation",
+        "Analytics",
+        "Team Collaboration"
+      ],
+      "rewards": {
+        "badge": true,
+        "points": 50,
+        "certificate": true
+      },
+      "thumbnailUrl": null,
+      "organizationName": "Global Accounting Firm",
+      "spotsAvailable": 50,
+      "spotsRemaining": 23,
+      "isFeatured": true,
+      "createdAt": "2025-09-20T10:00:00Z"
+    },
+    {
+      "id": "prog_002",
+      "title": "Data Analytics with Python",
+      "category": "Event",
+      "categoryColor": {
+        "background": "#fff3e0",
+        "text": "#f57c00"
+      },
+      "description": "Interactive workshop on data visualization techniques using Python libraries like Matplotlib, Seaborn, and Plotly.",
+      "duration": "2 hours",
+      "durationHours": "2 hours",
+      "startDate": "2025-10-12T15:00:00Z",
+      "difficulty": "Intermediate",
+      "skills": [
+        "Python",
+        "Data Visualization",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "rewards": {
+        "badge": true,
+        "points": 20,
+        "certificate": true
+      },
+      "thumbnailUrl": null,
+      "organizationName": "Tech Education Hub",
+      "spotsAvailable": 100,
+      "spotsRemaining": 45,
+      "isFeatured": false,
+      "createdAt": "2025-09-25T14:00:00Z"
+    },
+    {
+      "id": "prog_003",
+      "title": "Photography: Global Perspectives",
+      "category": "Competition",
+      "categoryColor": {
+        "background": "#f3e5f5",
+        "text": "#8e24aa"
+      },
+      "description": "Celebrating diversity through visual storytelling. Submit your best photography showcasing global cultures and perspectives.",
+      "duration": "3 weeks",
+      "durationHours": "Self-paced",
+      "startDate": "2025-10-20T00:00:00Z",
+      "difficulty": "All levels",
+      "skills": [
+        "Photography",
+        "Visual Storytelling",
+        "Cultural Awareness",
+        "Creativity"
+      ],
+      "rewards": {
+        "badge": true,
+        "points": 75,
+        "certificate": true
+      },
+      "thumbnailUrl": null,
+      "organizationName": "Creative Arts Foundation",
+      "spotsAvailable": 200,
+      "spotsRemaining": 156,
+      "isFeatured": false,
+      "createdAt": "2025-09-18T09:00:00Z"
+    },
+    {
+      "id": "prog_004",
+      "title": "AI Marketing Internship",
+      "category": "Internship",
+      "categoryColor": {
+        "background": "#e3f2fd",
+        "text": "#1976d2"
+      },
+      "description": "4-week virtual internship exploring AI applications in marketing. Learn about machine learning, predictive analytics, and AI-driven campaigns.",
+      "duration": "4 weeks",
+      "durationHours": "12-15 hours/week",
+      "startDate": "2025-10-15T00:00:00Z",
+      "difficulty": "Advanced",
+      "skills": [
+        "Artificial Intelligence",
+        "Marketing",
+        "Machine Learning",
+        "Data Analysis",
+        "Python"
+      ],
+      "rewards": {
+        "badge": true,
+        "points": 100,
+        "certificate": true
+      },
+      "thumbnailUrl": null,
+      "organizationName": "AI Innovation Labs",
+      "spotsAvailable": 30,
+      "spotsRemaining": 8,
+      "isFeatured": true,
+      "createdAt": "2025-09-22T11:00:00Z"
+    },
+    {
+      "id": "prog_005",
+      "title": "UX Design Masterclass",
+      "category": "Masterclass",
+      "categoryColor": {
+        "background": "#e8f5e9",
+        "text": "#2e7d32"
+      },
+      "description": "Learn user experience design principles from industry experts. Covers user research, wireframing, prototyping, and usability testing.",
+      "duration": "6 weeks",
+      "durationHours": "8-10 hours/week",
+      "startDate": "2025-10-18T00:00:00Z",
+      "difficulty": "Intermediate",
+      "skills": [
+        "UX Design",
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Figma"
+      ],
+      "rewards": {
+        "badge": true,
+        "points": 80,
+        "certificate": true
+      },
+      "thumbnailUrl": null,
+      "organizationName": "Design Academy",
+      "spotsAvailable": 40,
+      "spotsRemaining": 15,
+      "isFeatured": false,
+      "createdAt": "2025-09-19T10:30:00Z"
+    },
+    {
+      "id": "prog_006",
+      "title": "Startup Pitch Competition",
+      "category": "Competition",
+      "categoryColor": {
+        "background": "#f3e5f5",
+        "text": "#8e24aa"
+      },
+      "description": "Present your startup idea to a panel of investors and entrepreneurs. Winner receives seed funding and mentorship.",
+      "duration": "1 day",
+      "durationHours": "4 hours",
+      "startDate": "2025-10-25T09:00:00Z",
+      "difficulty": "All levels",
+      "skills": [
+        "Entrepreneurship",
+        "Public Speaking",
+        "Business Planning",
+        "Pitching"
+      ],
+      "rewards": {
+        "badge": true,
+        "points": 150,
+        "certificate": true
+      },
+      "thumbnailUrl": null,
+      "organizationName": "Startup Incubator Network",
+      "spotsAvailable": 50,
+      "spotsRemaining": 12,
+      "isFeatured": false,
+      "createdAt": "2025-09-16T13:00:00Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "announce_001",
+      "title": "New Competition: Breaking Boundaries",
+      "description": "Submit your creative work by Oct 20. Showcase your innovative ideas and win exciting prizes!",
+      "timestamp": "2025-10-15T12:00:00Z",
+      "priority": "high",
+      "relatedProgramId": "prog_003"
+    },
+    {
+      "id": "announce_002",
+      "title": "Webinar: Future of Work",
+      "description": "Join us tomorrow at 3 PM EST for an insightful discussion on emerging career trends and skills.",
+      "timestamp": "2025-10-15T07:00:00Z",
+      "priority": "medium",
+      "relatedProgramId": null
+    },
+    {
+      "id": "announce_003",
+      "title": "Q3 Internships Now Open",
+      "description": "Browse 50+ new opportunities across various industries. Early registration recommended!",
+      "timestamp": "2025-10-14T10:00:00Z",
+      "priority": "medium",
+      "relatedProgramId": null
+    }
+  ],
+  "badges": [
+    {
+      "id": "badge_001",
+      "name": "First Steps",
+      "description": "Complete your first program",
+      "icon": "🏅",
+      "rarity": "common"
+    },
+    {
+      "id": "badge_002",
+      "name": "Rising Star",
+      "description": "Earn 100 micro-scholarship points",
+      "icon": "⭐",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "badge_003",
+      "name": "Goal Achiever",
+      "description": "Complete 5 programs",
+      "icon": "🎯",
+      "rarity": "rare"
+    },
+    {
+      "id": "badge_004",
+      "name": "Innovator",
+      "description": "Complete an advanced-level program",
+      "icon": "💡",
+      "rarity": "rare"
+    },
+    {
+      "id": "badge_005",
+      "name": "Fast Learner",
+      "description": "Complete 3 programs in one month",
+      "icon": "🚀",
+      "rarity": "epic"
+    },
+    {
+      "id": "badge_006",
+      "name": "Graduate",
+      "description": "Earn your first certificate",
+      "icon": "🎓",
+      "rarity": "common"
+    }
+  ],
+  "userBadges": [
+    {
+      "userId": "user_001",
+      "badgeId": "badge_001",
+      "earnedAt": "2025-09-20T14:30:00Z"
+    },
+    {
+      "userId": "user_001",
+      "badgeId": "badge_002",
+      "earnedAt": "2025-09-25T10:15:00Z"
+    },
+    {
+      "userId": "user_001",
+      "badgeId": "badge_003",
+      "earnedAt": "2025-10-05T16:45:00Z"
+    },
+    {
+      "userId": "user_001",
+      "badgeId": "badge_004",
+      "earnedAt": "2025-10-08T11:20:00Z"
+    },
+    {
+      "userId": "user_001",
+      "badgeId": "badge_005",
+      "earnedAt": "2025-10-10T09:00:00Z"
+    },
+    {
+      "userId": "user_001",
+      "badgeId": "badge_006",
+      "earnedAt": "2025-09-18T13:30:00Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg_001",
+      "userId": "user_001",
+      "programId": "prog_001",
+      "registeredAt": "2025-09-28T14:00:00Z",
+      "status": "active",
+      "progress": 65,
+      "completedAt": null
+    },
+    {
+      "id": "reg_002",
+      "userId": "user_001",
+      "programId": "prog_002",
+      "registeredAt": "2025-09-30T10:00:00Z",
+      "status": "completed",
+      "progress": 100,
+      "completedAt": "2025-10-12T17:00:00Z"
+    },
+    {
+      "id": "reg_003",
+      "userId": "user_001",
+      "programId": "prog_003",
+      "registeredAt": "2025-10-01T09:00:00Z",
+      "status": "active",
+      "progress": 30,
+      "completedAt": null
+    }
+  ],
+  "feedback": [
+    {
+      "id": "feedback_001",
+      "userId": "user_001",
+      "programId": "prog_002",
+      "rating": 4,
+      "feedback": "The internship exceeded my expectations! The hands-on projects and mentorship were incredibly valuable.",
+      "suggestions": "More real-time collaboration tools would be helpful for team projects.",
+      "wouldRecommend": true,
+      "submittedAt": "2025-10-12T18:00:00Z"
+    }
+  ]
+}
